@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop - Tiwane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">TIWANA</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart 🛒</a>
+  </nav>
+</header>
+
+<section class="featured">
+  <h2>Shop Collection</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" />
+      <h3>Black Oversized Tee</h3>
+      <p>₹999</p>
+      <select id="size1">
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+      <button onclick="addToCart('Black Tee', 999, document.getElementById('size1').value)">Add to Cart</button>
+    </div>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
